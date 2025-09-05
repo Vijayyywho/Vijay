@@ -12,12 +12,8 @@
   "dependencies": {
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
-<<<<<<< HEAD
     "react-dom": "^18.3.1",
     "emailjs-com": "^3.2.0"
-=======
-    "react-dom": "^18.3.1"
->>>>>>> 930b28bf08385d0fe7009ee25cdba669f4a2aafc
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
