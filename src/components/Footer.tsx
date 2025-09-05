@@ -40,7 +40,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
             >
-              <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-slate-500 dark:text-slate-400"><rect x="2" y="2" width="16" height="16" rx="5" ry="5"></rect><path d="M15 10.37A4 4 0 1 1 10.37 7 4 4 0 0 1 15 10.37z"></path><line x1="16.5" y1="5.5" x2="16.5" y2="5.5"></line></svg>
+              <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-slate-500 dark:text-slate-400"><rect x="2" y="2" width="16" height="16" rx="5" ry="5"></rect><path d="M15 10.37A4 4 0 1 1 10.37 7 4 4 0 0 1 15 10.37z"></path><line x1="16.5" y1="5.5" x2="16.5" y2="5.5"></line></svg>        
             </a>
           </div>
 

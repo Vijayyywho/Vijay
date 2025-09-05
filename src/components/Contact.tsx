@@ -90,7 +90,7 @@ const Contact = () => {
                 </h4>
                 <div className="flex space-x-4">
                   <a
-                    href="https://github.com/Vijayyywho"
+                                href="https://github.com/Vijayyywho"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white dark:bg-slate-900 p-3 rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-110"
@@ -134,6 +134,8 @@ const Contact = () => {
                     type="text"
                     id="name"
                     name="name"
+                    value={formData.name}
+                    onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-slate-300 dark:border-slate-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 bg-white dark:bg-slate-800 text-slate-900 dark:text-white transition-all duration-300"
                     placeholder="Your name"
@@ -147,6 +149,8 @@ const Contact = () => {
                     type="email"
                     id="email"
                     name="email"
+                    value={formData.email}
+                    onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-slate-300 dark:border-slate-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 bg-white dark:bg-slate-800 text-slate-900 dark:text-white transition-all duration-300"
                     placeholder="your.email@example.com"

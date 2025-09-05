@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink,  } from 'lucide-react';
+import { ExternalLink, Github, Mail, Instagram, Linkedin, Facebook } from 'lucide-react';
 import { useInView } from '../hooks/useInView';
 import heritageRidesImg from '../images/heritagerides.netlify.app_.png';
 import shopper69Img from '../images/shopper69.netlify.app_ (5).png';
@@ -51,6 +51,38 @@ const Projects = () => {
       tags: ['React', 'Business', 'Website'],
       github: '',
       live: 'https://thergroup.in/'
+    },
+    {
+      title: 'E-Commerce Platform',
+      description: 'A full-featured e-commerce platform built with Next.js, featuring product catalog, shopping cart, and secure checkout.',
+      image: 'https://images.pexels.com/photos/4968391/pexels-photo-4968391.jpeg?auto=compress&cs=tinysrgb&w=800',
+      tags: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
+      github: 'https://github.com',
+      live: 'https://example.com'
+    },
+    {
+      title: 'Task Management App',
+      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
+      image: 'https://images.pexels.com/photos/3277808/pexels-photo-3277808.jpeg?auto=compress&cs=tinysrgb&w=800',
+      tags: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
+      github: 'https://github.com',
+      live: 'https://example.com'
+    },
+    {
+      title: 'Weather Dashboard',
+      description: 'A responsive weather dashboard that provides detailed forecasts, interactive maps, and location-based weather alerts.',
+      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
+      tags: ['React', 'OpenWeather API', 'Chart.js', 'CSS3'],
+      github: 'https://github.com',
+      live: 'https://example.com'
+    },
+    {
+      title: 'Portfolio Website',
+      description: 'A modern, responsive portfolio website built with React and Next.js, featuring smooth animations and dark mode support.',
+      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
+      tags: ['Next.js', 'React', 'Framer Motion', 'Tailwind CSS'],
+      github: 'https://github.com',
+      live: 'https://example.com'
     }
   ];
 
@@ -84,7 +116,14 @@ const Projects = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-start p-4">
                     <div className="flex space-x-3">
-                 
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-white/20 backdrop-blur-sm p-2 rounded-full hover:bg-white/30 transition-colors duration-300"
+                      >
+                        <Github size={20} className="text-white" />
+                      </a>    
                       <a
                         href={project.live}
                         target="_blank"
