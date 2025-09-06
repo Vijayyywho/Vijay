@@ -32,14 +32,7 @@ const Projects = () => {
       github: '',
       live: 'https://shopper69.netlify.app/'
     },
-    {
-      title: 'MovieFinder',
-      description: 'A movie search application that fetches and displays details of movies such as title, release year, rating, and synopsis using an external movies API.',
-      image: movieFinderImg,
-      tags: ['React', 'API', 'Movies'],
-      github: '',
-      live: 'https://whymovie.netlify.app/'
-    },
+ 
     {
       title: 'Shopphotos',
       description: 'An application that allows users to search and download high-quality photos from the Pexels API, providing options to choose image sizes and categories.',
@@ -88,6 +81,14 @@ const Projects = () => {
       tags: ['React', 'Business', 'Website'],
       github: '',
       live: 'https://thergroup.in/'
+    },
+    {
+      title: 'MovieFinder',
+      description: 'A movie search application that fetches and displays details of movies such as title, release year, rating, and synopsis using an external movies API.',
+      image: movieFinderImg,
+      tags: ['React', 'API', 'Movies'],
+      github: '',
+      live: 'https://whymovie.netlify.app/'
     },
    
   ];
