@@ -6,6 +6,10 @@ import shopper69Img from '../images/shopper69.netlify.app_ (5).png';
 import coconutvalleyImg from '../images/coconutvalley.in_.png';
 import araceliImg from '../images/aracelihospitality.com_ (3).png';
 import thergroupImg from '../images/thergroup.in_ (1).png';
+import shopphotosImg from '../images/photos.png';
+import qrGeneratorImg from '../images/qr.png';
+import textToAudioImg from '../images/text.png';
+import movieFinderImg from '../images/movie.png';
 
 const Projects = () => {
   const { ref, inView } = useInView();
@@ -28,6 +32,39 @@ const Projects = () => {
       github: '',
       live: 'https://shopper69.netlify.app/'
     },
+    {
+      title: 'MovieFinder',
+      description: 'A movie search application that fetches and displays details of movies such as title, release year, rating, and synopsis using an external movies API.',
+      image: movieFinderImg,
+      tags: ['React', 'API', 'Movies'],
+      github: '',
+      live: 'https://whymovie.netlify.app/'
+    },
+    {
+      title: 'Shopphotos',
+      description: 'An application that allows users to search and download high-quality photos from the Pexels API, providing options to choose image sizes and categories.',
+      image: shopphotosImg,
+      tags: ['React', 'API', 'Pexels'],
+      github: '',
+      live: 'https://shopphotos.netlify.app/'
+    },
+    {
+      title: 'QR Generator',
+      description: 'A tool to generate QR codes for any text, URL, or custom data input. Users can create, view, and download QR codes instantly.',
+      image: qrGeneratorImg,
+      tags: ['React', 'Utility', 'QR'],
+      github: '',
+      live: 'https://yourqr.netlify.app/'
+    },
+    {
+      title: 'TextToAudio',
+      description: 'A simple text-to-speech converter that transforms written text into natural-sounding audio. Users can input any text and download the audio output.',
+      image: textToAudioImg,
+      tags: ['React', 'Text-to-Speech', 'Utility'],
+      github: '',
+      live: 'https://texudio.netlify.app/'
+    },
+    
     {
       title: 'Coconutvalley',
       description: 'A modern website for Coconutvalley, featuring their Property.',
