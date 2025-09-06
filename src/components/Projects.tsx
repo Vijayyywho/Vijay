@@ -52,38 +52,7 @@ const Projects = () => {
       github: '',
       live: 'https://thergroup.in/'
     },
-    {
-      title: 'E-Commerce Platform',
-      description: 'A full-featured e-commerce platform built with Next.js, featuring product catalog, shopping cart, and secure checkout.',
-      image: 'https://images.pexels.com/photos/4968391/pexels-photo-4968391.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
-      github: 'https://github.com',
-      live: 'https://example.com'
-    },
-    {
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      image: 'https://images.pexels.com/photos/3277808/pexels-photo-3277808.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
-      github: 'https://github.com',
-      live: 'https://example.com'
-    },
-    {
-      title: 'Weather Dashboard',
-      description: 'A responsive weather dashboard that provides detailed forecasts, interactive maps, and location-based weather alerts.',
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['React', 'OpenWeather API', 'Chart.js', 'CSS3'],
-      github: 'https://github.com',
-      live: 'https://example.com'
-    },
-    {
-      title: 'Portfolio Website',
-      description: 'A modern, responsive portfolio website built with React and Next.js, featuring smooth animations and dark mode support.',
-      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['Next.js', 'React', 'Framer Motion', 'Tailwind CSS'],
-      github: 'https://github.com',
-      live: 'https://example.com'
-    }
+   
   ];
 
   return (
