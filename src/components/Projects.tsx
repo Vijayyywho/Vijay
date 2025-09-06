@@ -22,7 +22,7 @@ const Projects = () => {
       image: heritageRidesImg,
       tags: ['React', 'Travel', 'Website'],
       github: '',
-      live: 'https://heritagerides.netlify.app/'
+      live: 'https://www.heritagerides.in/'
     },
     {
       title: 'Shopper69',
