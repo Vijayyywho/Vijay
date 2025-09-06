@@ -10,7 +10,7 @@ import shopphotosImg from '../images/photos.png';
 import qrGeneratorImg from '../images/qr.png';
 import textToAudioImg from '../images/text.png';
 import movieFinderImg from '../images/movie.png';
-
+import vaviworldImg from '../images/vaviworld.in_.png';
 const Projects = () => {
   const { ref, inView } = useInView();
 
@@ -57,6 +57,15 @@ const Projects = () => {
       github: '',
       live: 'https://texudio.netlify.app/'
     },
+    {
+      title: 'Vaviworld',
+      description: 'An engaging website for Vaviworld, showcasing their services and offerings with a modern and user-friendly design.',
+      image: vaviworldImg,
+      tags: ['React', 'Business', 'Website'],
+      github: '',
+      live: 'https://vaviworld.in/'
+    },
+    
     
     {
       title: 'Coconutvalley',
